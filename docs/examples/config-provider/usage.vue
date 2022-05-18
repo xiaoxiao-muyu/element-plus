@@ -2,7 +2,7 @@
   <div>
     <el-button m="b-2" @click="toggle"> Switch Lang </el-button>
     <br />
-    <el-config-provider :locale="locale2">
+    <el-config-provider :locale="locale2" size="small">
       <el-color-picker :model-value="''" style="vertical-align: middle" />
     </el-config-provider>
   </div>
